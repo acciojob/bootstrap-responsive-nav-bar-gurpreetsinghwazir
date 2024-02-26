@@ -1,1 +1,38 @@
-/*  your css code here. If applicable */
+.na3{
+	background-color: powderblue;
+	
+}
+.bar a{
+	list-style: none;
+	padding: 15px;
+	
+}
+.inpt1{
+	margin-top: 5px;
+}
+#not1{
+	display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+	.bar li{
+		display: none;
+	}
+	#input{
+		display: none;
+	}
+	#searh{
+		display: none;
+	}
+	#not1{	
+		display: flex;
+		margin-left: 300px;
+		margin-top: 15px;
+	}
+
+	
+}
