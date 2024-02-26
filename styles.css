@@ -13,7 +13,9 @@
 #not1{
 	display: none;
 }
-
+.dropdown-content{
+	display: none;
+}
 
 
 
@@ -27,12 +29,12 @@
 	}
 	#searh{
 		display: none;
-	}
+	} 
 	#not1{	
 		display: flex;
 		margin-left: 300px;
 		margin-top: 15px;
 	}
-
+}
 	
 }
